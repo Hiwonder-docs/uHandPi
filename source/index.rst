@@ -13,5 +13,5 @@
    docs/6.remote_tool_installation_and_connection.md
    docs/8.ai_visual_gameplay_course.md
    docs/9.upper_computer_action_editing_course.md
-   docs/10.robot_network_configuration_course.md
+   docs/resources_download.md
 
