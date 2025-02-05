@@ -14,7 +14,7 @@ release = 'v1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx_markdown_tables','myst_parser','sphinx_copybutton']
+extensions = ['sphinx_markdown_tables','myst_parser','sphinx.ext.intersphinx','sphinx_copybutton']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -25,6 +25,9 @@ myst_enable_extensions = [
     "substitution",
 ]
 
+intersphinx_mapping = {
+    "myproject": ("https://docs.hiwonder.com/projects/TurboPi/en/latest/", "objects.inv"),
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
