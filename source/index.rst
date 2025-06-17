@@ -17,4 +17,4 @@ uHandPi
    docs/8.ai_visual_gameplay_course.md
    docs/9.upper_computer_action_editing_course.md
    docs/resources_download.md
-
+   Download <https://drive.google.com/drive/folders/1hywhLuEK5UfGCk_tn-i0_ovpnB9kzXEh?usp=sharing>
